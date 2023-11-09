@@ -6,9 +6,27 @@ body {
   letter-spacing: 2%;
 }
 
-/* line-height задати множником, не пікселями */
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 h1 {
@@ -49,6 +67,21 @@ p {
   font-size: 16px;
 }
 
+.navigation-container-block {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navigation-container-menu {
+  display: flex;
+  align-items: center;
+}
+
 .logo-container {
   text-decoration: none;
   color: #4d5ae5;
@@ -58,32 +91,41 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-right: 76px;
 }
 .logo-span {
   color: #2e2f42;
 }
 
-.navigation-container-list .link {
+.navigation-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation-menu .link {
   text-decoration: none;
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
 
-.navigation-container-list .link-studio {
+.navigation-menu .nav-menu-item {
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  padding: 24px 0;
 }
 
-.navigation-container-list .link-studio:focus,
-.navigation-container-list .link-studio:hover {
+.navigation-menu .nav-menu-item:focus,
+.navigation-menu .nav-menu-item:hover {
   color: #404bbf;
 }
 
-.navigation-container-list .link:hover {
+.navigation-menu .link:hover {
   color: #404bbf;
 }
 
-.navigation-container-list .link:active {
+.navigation-menu .link:active {
   text-decoration: underline;
 }
 
@@ -96,6 +138,9 @@ p {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
+
+  display: flex;
+  gap: 40px;
 }
 
 .contacts-list .contact:hover,
@@ -105,6 +150,12 @@ p {
 
 .header-container {
   background-color: #2e2f42;
+
+  padding: 188px 0;
+}
+
+.header-container-title {
+  max-width: 496px;
 }
 
 .order-button {
@@ -117,6 +168,13 @@ p {
   text-align: center;
   cursor: pointer;
   line-height: 1.5;
+
+  display: block;
+  max-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .order-button:hover,
@@ -124,29 +182,118 @@ p {
   background-color: #404bbf;
 }
 
+.features-container {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-container-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-container-list .list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-title {
+  margin-bottom: 8px;
+}
+
+.features-p {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
 .team-container {
   background-color: #f4f4fd;
+
+  padding: 120px 0;
+}
+
+.section-title {
+  margin-bottom: 72px;
+}
+
+.team-container-list {
+  display: flex;
+  gap: 24;
 }
 
 .team-member-photo {
   background-color: #ffffff;
+
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.bottom-container {
-  background-color: #2e2f42;
+.team-member-card {
+  padding: 32px 0;
 }
 
-.logo-span-name {
-  color: #f4f4fd;
+.member-name {
+  text-align: center;
+}
+
+.member-position {
+  text-align: center;
+}
+
+.porfolio-container {
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-container-list {
   background-color: #ffffff;
 }
 
-.features-p {
-  font-size: 16px;
-  letter-spacing: 0.02em;
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
+.portfolio-container-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfilio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.app-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.app-name {
+  margin-bottom: 8px;
+}
+
+.bottom-container {
+  background-color: #2e2f42;
+  margin-bottom: 8px;
+
+  padding: 100px 0;
+}
+
+.logo-span-name {
+  color: #f4f4fd;
 }
 
 .logo-footer {
@@ -158,6 +305,9 @@ p {
   color: #4d5ae5;
   text-transform: uppercase;
   text-decoration: none;
+
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-span-footer {
@@ -168,4 +318,6 @@ p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+
+  max-width: 264px;
 }
