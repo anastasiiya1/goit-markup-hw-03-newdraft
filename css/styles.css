@@ -77,7 +77,7 @@ p {
   padding: 0 15px;
 }
 
-.navigation-container-menu {
+. .container.navigation-container-menu {
   display: flex;
   align-items: center;
 }
