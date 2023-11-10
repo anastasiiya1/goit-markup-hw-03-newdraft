@@ -102,6 +102,7 @@ p {
 .navigation-menu {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .navigation-menu .link {
@@ -113,7 +114,6 @@ p {
 .navigation-menu .nav-menu-item {
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .navigation-menu .nav-menu-item:focus,
@@ -253,9 +253,8 @@ p {
   text-align: center;
 }
 
-.porfolio-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.portfolio-container {
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-container-list {
