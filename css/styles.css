@@ -77,7 +77,11 @@ p {
   padding: 0 15px;
 }
 
-. .container .navigation-container-menu {
+.navigation-container-block .contact {
+  display: inline-block;
+}
+
+.navigation-container-menu {
   display: flex;
   align-items: center;
 }
