@@ -67,20 +67,10 @@ p {
   font-size: 16px;
 }
 
-/* .navigation-container .navigation-container-block {
-  display: flex;
-} */
-
-/* .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-} */
 .container {
   width: 1158px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -263,7 +253,7 @@ p {
 }
 
 .portfolio-container {
-  padding: 120px 0 120px 0;
+  padding: 120px 0;
 }
 
 .portfolio-container-list {
