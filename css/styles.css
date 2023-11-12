@@ -67,17 +67,17 @@ p {
   font-size: 16px;
 }
 
-.navigation-container .navigation-container-block {
+/* .navigation-container .navigation-container-block {
   display: flex;
-}
-.container {
+} */
+
+/* .container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.navigation-container-block .container {
+} */
+.container {
   width: 1158px;
   display: flex;
   align-items: center;
@@ -161,7 +161,6 @@ p {
 
 .header-container {
   background-color: #2e2f42;
-
   padding: 188px 0;
 }
 
