@@ -281,7 +281,7 @@ p {
   row-gap: 48px;
 }
 
-.portfolio-container-list .portfilio-list-item {
+.portfilio-list-item {
   width: calc((100% - 48px) / 3);
 }
 
