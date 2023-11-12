@@ -69,7 +69,7 @@ p {
 
 .container {
   width: 1158px;
-  /* align-items: center; */
+  align-items: center;
   padding: 0 15px;
   margin: 0 auto;
   display: flex;
