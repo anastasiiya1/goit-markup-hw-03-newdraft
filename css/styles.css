@@ -315,11 +315,6 @@ p {
   color: #4d5ae5;
   text-transform: uppercase;
   text-decoration: none;
-  /* display: inline-block; */
-  /* margin-bottom: 16px; */
-}
-
-.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
