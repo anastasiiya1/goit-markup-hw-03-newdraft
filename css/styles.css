@@ -67,14 +67,14 @@ p {
   font-size: 16px;
 }
 
+.header-container {
+  display: flex;
+}
+
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.header-container {
-  display: flex;
 }
 
 .navigation-menu {
@@ -151,12 +151,12 @@ p {
   color: #404bbf;
 }
 
-.header-container {
+.section-container {
   background-color: #2e2f42;
   padding: 188px 0;
 }
 
-.header-container-title {
+.section-container-title {
   max-width: 496px;
 }
 
