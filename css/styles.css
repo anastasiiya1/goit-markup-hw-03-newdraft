@@ -69,10 +69,10 @@ p {
 
 .container {
   width: 1158px;
-  display: flex;
   /* align-items: center; */
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
 }
 
 .navigation-menu {
