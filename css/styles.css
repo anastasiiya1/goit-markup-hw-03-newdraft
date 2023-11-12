@@ -281,7 +281,7 @@ p {
   row-gap: 48px;
 }
 
-.portfilio-list-item {
+.portfolio-container-list .portfilio-list-item {
   width: calc((100% - 48px) / 3);
 }
 
@@ -315,6 +315,11 @@ p {
   color: #4d5ae5;
   text-transform: uppercase;
   text-decoration: none;
+  /* display: inline-block; */
+  /* margin-bottom: 16px; */
+}
+
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
