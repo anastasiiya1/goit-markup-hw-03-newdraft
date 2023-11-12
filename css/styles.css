@@ -101,8 +101,9 @@ p {
 .navigation-list {
   display: flex;
   gap: 40px;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
+/* скрити падінги?? */
 
 .navigation-list .link {
   text-decoration: none;
