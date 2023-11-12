@@ -67,10 +67,9 @@ p {
   font-size: 16px;
 }
 
-.navigation-container-block {
+.navigation-container .navigation-container-block {
   display: flex;
 }
-
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -86,7 +85,7 @@ p {
   margin: 0 auto;
 }
 
-.container .navigation-menu {
+.navigation-menu {
   display: flex;
   align-items: center;
 }
@@ -110,7 +109,7 @@ p {
 .navigation-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .navigation-list .link {
@@ -122,6 +121,7 @@ p {
 .navigation-list .nav-menu-item {
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .navigation-list .nav-menu-item:focus,
