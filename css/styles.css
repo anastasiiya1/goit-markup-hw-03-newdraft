@@ -78,12 +78,20 @@ p {
   padding-right: 15px;
 }
 
-.navigation-menu {
+.navigation-container-block .container {
+  width: 1158px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container .navigation-menu {
   display: flex;
   align-items: center;
 }
 
-.logo-link {
+.navigation-menu .logo-link {
   text-decoration: none;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -99,48 +107,51 @@ p {
   color: #2e2f42;
 }
 
-.navigation-menu {
+.navigation-list {
   display: flex;
   gap: 40px;
   padding: 24px 0;
 }
 
-.navigation-menu .link {
+.navigation-list .link {
   text-decoration: none;
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
 
-.navigation-menu .nav-menu-item {
+.navigation-list .nav-menu-item {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.navigation-menu .nav-menu-item:focus,
-.navigation-menu .nav-menu-item:hover {
+.navigation-list .nav-menu-item:focus,
+.navigation-list .nav-menu-item:hover {
   color: #404bbf;
 }
 
-.navigation-menu .link:hover {
+.navigation-list .link:hover {
   color: #404bbf;
 }
 
-.navigation-menu .link:active {
+.navigation-list .link:active {
   text-decoration: underline;
 }
 
 .navigation-container-contacts {
   font-style: normal;
 }
+
+.navigation-container-contacts .contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
 .contacts-list .contact {
   text-decoration: none;
   color: #434455;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
-
-  display: flex;
-  gap: 40px;
 }
 
 .contacts-list .contact:hover,
